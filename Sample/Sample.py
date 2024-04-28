@@ -33,8 +33,8 @@ choice = input("Enter choice (1/2/3/4): ")
 
 if choice in ('1', '2', '3', '4'):
     num1 = float(input("Enter first number of your choice: "))
-    num2 = float(input("Enter second number of your choice: "))
-    num3 = float(input("Enter third number of your choice: "))
+    num2 = float(input("Now enter second number of your choice: "))
+    num3 = float(input("AAnd lastly enter third number of your choice: "))
 
     if choice == '1':
         print("Result:", add(num1, num2, num3))
